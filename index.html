@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- encabezado de pagina con el nombre de la tienda -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrilloNatural</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- encabezado primcipal con donde el menu de navegacion esta dentro de un contenedor   -->
+      <div class="menu container">
+        <!-- menu de navegacion con logo y menu despegable -->
+        <a href="#" class="logo"></a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="images/menu.png" class="menu-icono" alt="menu" />
+        </label>
+        <nav class="navbar">
+          <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="contacto.html">Nosotros</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="buzon.html" target="_blank">Contacto</a></li>
+          </ul>
+        </nav>
+        <div>
+          <ul>
+            <li class="submenu">
+              <!-- <img src="images/car.svg" id="img-carrito" alt="carrito"> FUNCION PARA EL CARRITO DE COMPRAS -->
+              <div id="carrito">
+                <table id="lista-carrito">
+                  <thead>
+                    <tr>
+                      <th>Imagen</th>
+                      <th>Nombre</th>
+                      <th>Precio</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+                <!-- <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a> FUNCION PARA VACIAR EL CARRITOS DE COMPRAS -->
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-content container">
+        <div class="header-ing">
+          <img src="images/exfoliante.png" alt="" />
+        </div>
+        <div class="header-txt">
+          <!--  título que menciona "Ofertas especiales" y un botón para más información. -->
+          <h1>Ofertas especiales</h1>
+          <p>Los mejores jabones artesanales</p>
+          <a href="contacto.html" target="_blank" class="btn-1">información</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- aqui se empiezan a poner las imagenes de los productos con información acerca de cada uno -->
+    <!-- <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/asientos1.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Producto 1</h3>
+                <a href="#" class="btn-2">información</a>
+            </div>
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/asientos2.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Producto 2</h3>
+                <a href="#" class="btn-2">información</a>
+            </div>
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/asientos3.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Producto 3</h3>
+                <a href="#" class="btn-2">información</a>
+            </div> 
+        </div>
+    </section> -->
+
+    <main class="products container" id="lista-1">
+      <!-- productos listados, cada uno con una imagen y una descripción -->
+      <h2>Productos</h2>
+
+      <div class="product-content">
+        <div class="product">
+          <img src="images/Exfoliante Corporal.png" alt="" />
+          <div class="product-txt">
+            <h3>Exfoliante Corporal</h3>
+            <p>
+              Con harina de arroz para brindar una exfoliación tenue que permite
+              retirar células muertas, deja tu piel tersa y suave
+            </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/Desmaquillante.png" alt="" />
+          <div class="product-txt">
+            <h3>Desmaquillante</h3>
+            <p>
+              Con una gota de producto, podrá disolver el maquillaje de los
+              ojos. Retírelo con una toalla húmeda
+            </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/DesodoranteEnGEl.png" alt="" />
+          <div class="product-txt">
+            <h3>Desodorante en gel</h3>
+            <p>
+              Con piedra de alumbre un desodorante natural, y para mayor
+              humectación extracto de sábila
+            </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/PomadaDeRomero.png" alt="" />
+          <div class="product-txt">
+            <h3>Pomada de Romero</h3>
+            <p>
+              Descubre las propiedades desinflamatorias del romero y la
+              caléndula. Para algún dolor por cansancio o por un golpe es de
+              gran ayuda
+            </p>
+            <!-- <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a> ESTO ES PARA AGREGAR COSAS AL CARRO -->
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/GelParaPiernasCansadas.png" alt="" />
+          <div class="product-txt">
+            <h3>Gel para piernas cansadas</h3>
+            <p>
+              El cansancio no será más tu acompañante, todas las noches. Con
+              este gel sentirás la frescura del mentol y el árnica desinflamará
+              tus pies y piernas !!! No pierdas esta experiencia !!!
+            </p>
+            <!-- <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a> ESTO ES PARA AGREGAR COSAS AL CARRO -->
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/EspumaLimpiadora.png" alt="" />
+          <div class="product-txt">
+            <h3>Espuma limpiadora</h3>
+            <p>
+              Espuma ligera que le dará a tu piel limpieza y suavidad, con urea
+              para brindarte hidratación profunda
+            </p>
+            <!-- <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a> ESTO ES PARA AGREGAR COSAS AL CARRO -->
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Serum Hidratante.png" alt="" />
+          <div class="product-txt">
+            <h3>Sérum Hidratante</h3>
+            <p>
+              Un gel con glicerina, niacinamida, aloe vera, que dejarán tu piel
+              hidratada y suave, unificando el tono de tu piel
+            </p>
+            <!-- <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a> ESTO ES PARA AGREGAR COSAS AL CARRO -->
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/Serum Tensor.png" alt="" />
+          <div class="product-txt">
+            <h3>Sérum Tensor</h3>
+            <p>
+              Este serum permitirá que tu piel se sienta tersa y suave, elimina
+              ligeras líneas de expresión, con niacinamina y cafeína anhidra
+            </p>
+            <!-- <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a> ESTO ES PARA AGREGAR COSAS AL CARRO -->
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/JabónTipoBombón.png" alt="" />
+          <div class="product-txt">
+            <h3>Jabón Tipo Bombón</h3>
+            <p>
+              Ideales para llevar en el bolso, uso único Se humedece y se frota
+              durante unos segundos hasta que desaparezca
+            </p>
+            <!-- <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a> ESTO ES PARA AGREGAR COSAS AL CARRO -->
+          </div>
+        </div>
+    
+      </div>
+    </main>
+
+    <section class="icons container">
+      <div class="blog-1">
+        <center>
+          <h3>Jabones Artesanales</h3>
+        </center>
+        <p style="text-align: center">La mejor suavidad para tu piel</p>
+      </div>
+
+      <div class="blog-1">
+        <center>
+          <h3>Cremas Exfoliantes</h3>
+        </center>
+        <p style="text-align: center">Suavidad como nunca has experimentado</p>
+      </div>
+
+      <div class="blog-1">
+        <center>
+          <h3>Calidad</h3>
+        </center>
+        <p style="text-align: center">
+          La calidad es lo que nos define ya que estam echos de origen natural
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <!-- Incluye varios enlaces organizados en secciones como "Localidad",
+             "Información Legal", "Conecta" y un icono de redes sociales -->
+      <div class="footer-content container">
+        <div class="link">
+          <h3></h3>
+          <ul>
+            <li><a href="index.html">BrilloNatural</a></li>
+          </ul>
+        </div>
+        <div class="link">
+          <h3>Localidad</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.google.com.mx/maps/@19.84412,-98.9683412,3a,75y,310.92h,81.83t/data=!3m7!1e1!3m5!1sa4PaImVP5xb5U2LDcj1dkg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D8.174941968861248%26panoid%3Da4PaImVP5xb5U2LDcj1dkg%26yaw%3D310.91702084541333!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTExNy4wIKXMDSoASAFQAw%3D%3D"
+                >Cumbre MZ 9 LT 4 Fraccionamiento San Antonio
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="link">
+          <h3>información Legal</h3>
+          <ul>
+            <li><a href="#">Privacidad</a></li>
+            <li><a href="#">Terminos de contacto</a></li>
+          </ul>
+        </div>
+        <div class="link">
+          <h3>Conecta</h3>
+          <ul>
+            <div class="social">
+              <a
+                href="https://www.facebook.com/profile.php?id=100064068493083"
+                target="_blank"
+              >
+                <img src="images/fa.svg" width="70" alt="" />
+              </a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scrip.js"></script>
+  </body>
+</html>

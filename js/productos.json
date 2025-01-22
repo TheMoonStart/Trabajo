@@ -1,0 +1,132 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": "Arcilla roja",
+        "imagen": "./img/abrigos/Arcilla Roja.png",
+        "categoria": {
+            "nombre": "Jabones",
+            "id": "jabones"
+        },
+        "precio": 40
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Arcilla verde",
+        "imagen": "./img/abrigos/Arcilla Verde.png",
+        "categoria": {
+            "nombre": "Jabones",
+            "id": "jabones"
+        },
+        "precio": 40
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Avena",
+        "imagen": "./img/abrigos/Avena.png",
+        "categoria": {
+            "nombre": "Jabones",
+            "id": "jabones"
+        },
+        "precio": 40
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Aguacate",
+        "imagen": "./img/abrigos/Aguacate.png",
+        "categoria": {
+            "nombre": "Jabones",
+            "id": "jabones"
+        },
+        "precio": 40
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Almendras",
+        "imagen": "./img/abrigos/Almendras.png",
+        "categoria": {
+            "nombre": "Jabones",
+            "id": "jabones"
+        },
+        "precio": 40
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Sales de baño",
+        "imagen": "./img/camisetas/Sales de Baño.png",
+        "categoria": {
+            "nombre": "Mas Vendidos",
+            "id": "Mas Vendidos"
+        },
+        "precio": 60
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Mascarrilla y Tonico",
+        "imagen": "./img/camisetas/Mascarrilla y Tonico.png",
+        "categoria": {
+            "nombre": "Mas Vendidos",
+            "id": "Mas Vendidos"
+        },
+        "precio": 40
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Mascarrilla Seca",
+        "imagen": "./img/camisetas/Mascarrilla Seca.png",
+        "categoria": {
+            "nombre": "Mas Vendidos",
+            "id": "Mas Vendidos"
+        },
+        "precio": 25
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Lavanda",
+        "imagen": "./img/camisetas/Lavanda.png",
+        "categoria": {
+            "nombre": "Mas Vendidos",
+            "id": "Mas Vendidos"
+        },
+        "precio": 35
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Cúrcuma",
+        "imagen": "./img/camisetas/Curcuma.png",
+        "categoria": {
+            "nombre": "Mas Vendidos",
+            "id": "Mas Vendidos"
+        },
+        "precio": 40
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Jabón Batido ",
+        "imagen": "./img/camisetas/Jabon Batido.png",
+        "categoria": {
+            "nombre": "Mas Vendidos",
+            "id": "Mas Vendidos"
+        },
+        "precio": 45
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Jamaica",
+        "imagen": "./img/camisetas/Jamaica.png",
+        "categoria": {
+            "nombre": "Mas Vendidos",
+            "id": "Mas Vendidos"
+        },
+        "precio": 40
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Body butter",
+        "imagen": "./img/pantalones/Body.png",
+        "categoria": {
+            "nombre": "Cremas",
+            "id": "Cremas"
+        },
+        "precio": 55
+    }
+]
